@@ -1,0 +1,138 @@
+h1{color:red;}
+
+
+}     header{
+  font-family: 'Open Sans Condensed', sans-serif;
+     text-align: center;
+     font-size: 35px;
+     padding-top: 20px;
+     color: white;
+}
+title{
+  font-size: 24px;
+  font-family: fantasy;
+  text-align: center;
+
+}
+
+h2{
+
+  font-family: 'Cormorant Garamond', serif;
+   text-align: center;
+
+}
+
+#counter {border: 1px solid;
+          position: absolute;
+          top:0;
+          left: 0;
+          margin:0;
+          padding: 10px;
+          width: 200px;
+          height: 100px;
+          line-height: 100px;
+         text-align: center;
+       }
+
+#canvas { border: 1px;
+          position: relative;
+          margin: 0 auto;
+          width: 800px;
+          height:10000px;
+          margin:0 auto;
+          position: relative;
+          overflow: hidden;
+          repeat(none);
+          background-repeat: no-repeat;
+          background-size: auto;
+        }
+        body{
+
+          font-family: 'Verdana', sans-serif;
+          font-weight:900;
+          background:url(tree3.svg) no-repeat, center,linear-gradient(to bottom, #a7d3db 0%,#cfddc9 88%,#e2e3ce 94%,#fceabd 100%);
+
+
+
+          }
+
+
+
+          p{
+            font-family: "Georgia", "Times New Roman", serif;
+            font-size: 20px;
+            font-weight: normal;
+             color:#FAFDFC;
+
+          }
+
+
+
+
+          #jack{
+            Top:1872px;
+            right: -700px;
+          }
+
+
+        #moon-trees{top:2402px;
+                    right: -195px;
+                  }
+
+
+        #cat-tree
+        {
+          top:3000px;
+          right: -195px;
+        }
+
+
+
+
+         #coco{
+           Top:3480px;
+           right: -165px;
+
+         }
+
+
+
+         #Moana{
+           top: 4000px;
+           right:-160px;
+         }
+
+
+        .slider{
+          height:900px;
+          width:300px;
+          position:absolute;
+          transition:left .5s, right .5s;
+          /* transition:all .5s; */
+        }
+
+
+  #princess{
+    padding-bottom: 900000px;
+  }
+
+
+
+
+
+
+  #test{
+
+    height:50px;
+    width:50px;
+    border:1px solid red;
+    position:fixed;
+  }
+
+  .restart {
+    animation: bounce 1s ease-in-out 1 both;
+  }
+
+  @keyframes bounce {
+
+    50% {transform:translateY(50px);}
